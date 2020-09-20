@@ -12,7 +12,7 @@
     header{
 		height: 400px;
 		background-color: black;
-		color: aqua;
+		color: blue;
 		display: flex;
 		justify-content: center;
 		align-items: center;
