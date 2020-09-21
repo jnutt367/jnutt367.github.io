@@ -38,7 +38,7 @@
 		
 	}
 	ul li {
-		font-family: 'Tangerine', cursive;
+		font-family: 'Amatic SC', cursive;
 		display: flex;
 		padding: 15px;
 		margin: 10px;
@@ -119,7 +119,9 @@
 		display: flex;
 	}
 	.col-sm{
+		height: 700px;
 		overflow: hidden;
+		border: 1px solid silver;
 	}
 	footer {
 		height:400px;
