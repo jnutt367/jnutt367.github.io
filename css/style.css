@@ -19,12 +19,18 @@
 		align-items: center;
 	}
 	header h1 {
+		font-family: 'Amatic SC', cursive;
 		padding: 25px;
 		align-items: center;
 	}
     *, *:before, *:after {
       box-sizing: inherit;
     }
+	.navbar {
+		background-color: white;
+		padding-right: 50px;
+	}
+	
 	ul  {
 		list-style: none;
 		display: flex;
@@ -32,6 +38,7 @@
 		
 	}
 	ul li {
+		font-family: 'Tangerine', cursive;
 		display: flex;
 		padding: 15px;
 		margin: 10px;
@@ -66,11 +73,11 @@
 	  flex-direction: column;
     }
 
-    .panel1 { background-image:url(../images/facial.jpg); }
-    .panel2 { background-image:url(../images/backgroundFlowers.jpg); }
-    .panel3 { background-image:url(../images/cupping.jpg); }
-    .panel4 { background-image:url(../images/oilInHand.jpg); }
-    .panel5 { background-image:url(../images/massageImg.jpg); }
+    .panel1 { background-image:url(../images/02.jpg); }
+    .panel2 { background-image:url(../images/birdOnShore.jpg); }
+    .panel3 { background-image:url(../images/09.jpg); }
+    .panel4 { background-image:url(../images/07.jpg); }
+    .panel5 { background-image:url(../images/12.jpg); }
 
     /* Flex Children */
     .panel > * {
@@ -91,19 +98,22 @@
 
     .panel p {
       text-transform: uppercase;
-      font-family: 'Amatic SC', cursive;
+      font-family: 'Tangerine', 'Amatic SC', cursive;
       text-shadow: 0 0 4px rgba(0, 0, 0, 0.72), 0 0 14px rgba(0, 0, 0, 0.45);
-      font-size: 2em;
+      font-size: 1em;
     }
     
     .panel p:nth-child(2) {
-      font-size: 4em;
+      font-size: 2em;
     }
 
     .panel.open {
 	  flex: 5;
       font-size: 40px;
     }
+	aside {
+		text-align: center;
+	}
 	section {
 		height: 800px;
 		display: flex;
