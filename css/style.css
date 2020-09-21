@@ -1,6 +1,6 @@
     html {
       box-sizing: border-box;
-      background: aqua;
+      background: transparent;
       font-family: 'helvetica neue';
       font-size: 20px;
       font-weight: 200;
@@ -20,8 +20,11 @@
 	}
 	header h1 {
 		font-family: 'Amatic SC', cursive;
-		padding: 25px;
 		align-items: center;
+		margin-top: 25px;
+	}
+	.second-headline{
+		margin-bottom: 35px;
 	}
     *, *:before, *:after {
       box-sizing: inherit;
@@ -29,6 +32,7 @@
 	.navbar {
 		background-color: white;
 		padding-right: 50px;
+		margin-bottom: 25px;
 	}
 	
 	ul  {
@@ -119,14 +123,37 @@
 		display: flex;
 	}
 	.col-sm{
-		height: 700px;
+		height: 650px;
+		margin: 10px;
 		overflow: hidden;
 		border: 1px solid silver;
 	}
+	.col-sm p {
+			overflow-y:scroll;
+		}
+	
 	footer {
 		height:400px;
+		margin-top: 200px;
 		background-color: black;
 		color: white;
 		text-align: center;
 	}
+	
+	@media (max-width: 600px) {
+		.col-sm{
+		height: 400px;
+		margin: 10px;
+		overflow: hidden;
+		border: 1px solid silver;
+		}
+		
+		footer {
+			margin-top: 600px;
+		}
+	}
+	/* Extending columns to fit content at medium width */
+	
+	
+	
 	
