@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Mouse Shadow</title>
+</head>
+<body>
+	<h2 contenteditable>JNutt: Trying to be an imitator of the Great</h2>
+  <div class="hero">
+	
+    <h1 contenteditable><span>🔥</span> CREATOR!</h1>
+  </div>
+
+  <style>
+  html {
+	background-image: radial-gradient(#777, #555, #444);
+    color: #111;
+    font-family: sans-serif;
+  }
+	span {
+	color: red;
+	}
+  body {
+    margin: 0;
+  }
+	h2 {
+	margin-top: 50px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	}
+  .hero {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: grey;
+  }
+
+  h1 {
+    text-shadow: 10px 10px 0 rgba(0,0,0,1);
+    font-size: 100px;
+  }
+  </style>
+
+<script>
+	const hero = document.querySelector('.hero');
+	const text = hero.querySelector('h1');
+	
+	function shadow(e) {
+		const { offsetWidth: width, offsetHeight: height } = hero;
+		let { offsetX: x, offsetY: y } = e;
+		
+		console.log(x, y);
+		
+	}
+	
+	hero.addEventListener('mousemove', shadow);
