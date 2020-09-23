@@ -1,16 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Mouse Shadow</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Portfolio Project Home page</title>
+  <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href='css/style.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-	<h2 contenteditable>JNutt: Trying to be an imitator of the Great</h2>
+	<nav class="nabvbar">
+		<ul>
+			<li>These</li>
+			<li>Are</li>
+			<li>My</li>
+			<li>Projects</li>
+		</ul>
+	</nav>
+	<h2>I am expanding my knowledge in hopes<br>
+	of becoming more like the great: </h2>
   <div class="hero">
 	
     <h1 contenteditable><span>🔥</span> CREATOR!</h1>
   </div>
-
+	<main class="grid-container">
+		<div class="card"><img src="images/anatomy.jpg"></div>
+		<div class="card"><img src="images/anatomy.jpg"></div>
+		<div class="card"><img src="images/anatomy.jpg"></div>
+		<div class="card"><img src="images/anatomy.jpg"></div>
+	</main>
   <style>
   html {
 	background-image: radial-gradient(#777, #555, #444);
@@ -30,7 +48,7 @@
     align-items: center;
 	}
   .hero {
-    min-height: 100vh;
+    height: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +59,19 @@
     text-shadow: 10px 10px 0 rgba(0,0,0,1);
     font-size: 100px;
   }
+  .grid-container {
+	
+    display: grid;
+    justify-content: center;
+    align-items: center;
+	grid-gap: 15px;
+    color: grey;
+  }
+  .card {
+	height: 400px;
+	width: 300px;
+  }
+  
   </style>
 
 <script>
