@@ -30,6 +30,7 @@
       box-sizing: inherit;
     }
 	.navbar {
+		width: 100%;
 		background-color: white;
 		padding-right: 50px;
 		margin-bottom: 25px;
@@ -139,7 +140,10 @@
 		color: white;
 		text-align: center;
 	}
-	
+	footer img {
+		height: 50px;
+		width: 50px;
+	}
 	@media (max-width: 600px) {
 		.col-sm{
 		height: 400px;
