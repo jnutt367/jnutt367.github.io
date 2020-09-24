@@ -15,6 +15,7 @@ html{
 		align-items: center;
 		font-family: "Amatic SC";
 		font-size: 2em;
+		mrgin-left: -30px;
 	}
 	
 	.container-fluid li {
@@ -25,7 +26,11 @@ html{
 		width: 100px;
 		background-color: transparent;
 	}
-	
+	img {
+		height: 100px;
+		width: 100px;
+		background-color: transparent;
+	}
 	main h1{
 		font-family: 'Tangerine';
 		display: grid;
@@ -112,14 +117,17 @@ html{
 	/*---------End of Panel styles ---------*/
 	footer { 
 		display: flex;
-		flex-direction: column;
-		justify-content: center;
+		flex-direction: row;
+		justify-content: space-around;
 		align-items: center;
 	}
 	
 	footer img {
-		height: 100px;
-		width: 100px;
+		height: 50px;
+		width: 50px;
+	}
+	.facebook {
+		fill: blue;
 	}
 	/*------Queries for header styles -----*/
 	@media ( min-width: 769px) {

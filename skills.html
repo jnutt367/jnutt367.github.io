@@ -6,34 +6,17 @@
   <link href='https://fonts.googleapis.com/css?family=Amatic+SC' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href='css/normalize.css' rel='stylesheet' type='text/css'>
   <link href='css/style.css' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <style>
-  
-	header {
-		height: 400px;
-		background-color: black;
-		color: aqua;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-	}
-	img {
-		
-		height: 100px;
-		width: 100px;
-	}
-
+ <style>
     .panel1 { background-image:url(images/01.jpg); }
     .panel2 { background-image:url(images/03.jpg); }
     .panel3 { background-image:url(images/08.jpg); }
     .panel4 { background-image:url(images/10.jpg); }
     .panel5 { background-image:url(images/11.jpg); }
-
-	
-  </style>
+</style>
 <header class="container-fluid">
 	<nav class="navbar sticky-top">
 		<ul>
@@ -48,10 +31,12 @@
 			<li><a href="index.html">HOME</a></li>	
 		</ul>
 	</nav>
- <h1>The Future Depends on Us Now</h1>
- <h1 class="second-headline">Never Give Up on the Fight for Justice and Equality</h1>
+ 
 </header>
-
+	<div class="headline">
+		<h1>The Future Depends on Us Now</h1>
+		<h1 class="second-headline">Never Give Up on the Fight for Justice and Equality</h1>
+	</div>
   <div class="panels">
     <div class="panel panel1">
       <p>Live</p>
@@ -68,22 +53,12 @@
       <p>Live</p>
       <p>By Grace</p>
     </div>
-    <div class="panel panel4">
-      <p>Be</p>
-      <p>His</p>
-      <p>Hands & Feet</p>
-    </div>
-    <div class="panel panel5">
-      <p>His</p>
-      <p>Word</p>
-      <p>Is Power</p>
-    </div>
+    
   </div>
-  <footer>
-	<img src="svg/github-icon.png">
-	<img src="svg/icon-facebook.svg">
+<footer>
+	<address><a href="https://github.com/jnutt367"><img src="svg/github-icon.png"></a><address>
+	<img class="facebook" src="svg/icon-facebook.svg">
 	<img src="svg/icon-twitter.svg">
-	
 </footer>
   <script src="js/script.js">
 	
