@@ -26,6 +26,13 @@ html{
 		width: 100px;
 		background-color: transparent;
 	}
+	h1 {
+		font-family: 'Tangerine';
+		display: grid;
+		font-size: 2em;
+		text-align: center;
+		color: black;
+	}
 	img {
 		height: 100px;
 		width: 100px;
@@ -36,7 +43,7 @@ html{
 		display: grid;
 		font-size: 2em;
 		text-align: center;
-		color: aqua;
+		color: blue;
 	}
 	
 	/*------Main Styles -----------------*/
