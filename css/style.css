@@ -15,7 +15,7 @@ html{
 		align-items: center;
 		font-family: "Amatic SC";
 		font-size: 2em;
-		mrgin-left: -30px;
+		margin-right: 50px;
 	}
 	
 	.container-fluid li {
@@ -120,12 +120,14 @@ html{
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
+		margin-top: 50px;
 	}
 	
 	footer img {
 		height: 50px;
 		width: 50px;
 	}
+	/*--------------Figure out how to fill facebook svg with blue ------*/
 	.facebook {
 		fill: blue;
 	}
