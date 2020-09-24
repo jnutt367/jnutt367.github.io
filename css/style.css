@@ -33,6 +33,11 @@ html{
 		text-align: center;
 		color: black;
 	}
+	h2 {
+		margin-top: 25px;
+		font-family: 'Tangerine';
+		font-size: 3em;
+	}
 	img {
 		height: 100px;
 		width: 100px;
