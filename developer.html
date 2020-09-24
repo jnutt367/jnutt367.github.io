@@ -33,7 +33,7 @@
 	</main>
   <style>
   html {
-	
+	text-align: center;
     color: #111;
     font-family: sans-serif;
   }
@@ -45,9 +45,12 @@
   }
 	h2 {
 	margin-top: 50px;
+	margin-right: 25px;
+	nargin-left: 25px;
 	display: flex;
     justify-content: center;
     align-items: center;
+	text-align: center;
 	}
   .hero {
     height: 500px;
@@ -62,12 +65,12 @@
     font-size: 100px;
   }
   .grid-container {
-	margin-left: 6em;
-    display: grid;
-	grid-template-columns: 1fr 1fr;
+	text-align: center;
+    display: flex;
+	flex-direction: column;
     justify-content: center;
     align-items: center;
-	grid-gap: 5px;
+	grid-gap: 55px;
     
   }
   .card {
@@ -78,7 +81,13 @@
 	height: 400px;
 	width: 400px;
   }
-  
+  ul { 
+	display: flex;
+	text-align: center;
+	flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
   </style>
 
 <script>
