@@ -10,7 +10,7 @@ html{
 /*------ Header Styles  --------*/
 	.container-fluid{
 		display: flex;
-		flex-direction: columns;
+		flex-direction: column;
 		justify-content: center;
 		align-items: center;
 		font-family: "Amatic SC";
@@ -51,7 +51,7 @@ html{
 		color: blue;
 	}
 	
-	/*------Main Styles -----------------*/
+	
 	/*------Panels only ----------*/
 	.panels {
       min-height: 100vh;
