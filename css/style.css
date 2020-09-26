@@ -45,6 +45,9 @@ html{
 		border-radius: 50%;
 		box-shadow: 3px 3px , -1em 0 .4em teal;
 	}
+	li img {
+		margin: 25px;
+	}
 	main h1{
 		font-family: 'Tangerine';
 		display: grid;
