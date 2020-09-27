@@ -21,6 +21,8 @@ html{
 /*------ Header Styles  --------*/
 	.container-fluid{
 		background-image: url('../images/birdOnShore.jpg');
+		background-repeat: no repeat;
+		
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
@@ -150,6 +152,9 @@ html{
 	  flex: 5;
       font-size: 40px;
     }
+	.panel a {
+		font-size: .5em;
+	}
 	/*------about me headline style ---------*/
 	#about{
 	text-align: center;
