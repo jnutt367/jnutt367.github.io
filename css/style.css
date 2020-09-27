@@ -58,7 +58,7 @@ html{
 	main a {
 		font-family: 'Tangerine';
 		display: grid;
-		font-size: 2em;
+		font-size: 1.5em;
 		text-align: center;
 		color: blue;
 	}
