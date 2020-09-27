@@ -16,9 +16,11 @@ html{
 	position: absolute;
 	left: 50px;
 	box-shadow: none;
+	background-color: transparent;
 }
 /*------ Header Styles  --------*/
 	.container-fluid{
+		background-image: url('../images/birdOnShore.jpg');
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
