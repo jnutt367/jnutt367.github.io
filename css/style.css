@@ -16,7 +16,7 @@ html{
 	position: absolute;
 	left: 50px;
 	box-shadow: none;
-	background-color: transparent;
+	border-radius: 35%;
 }
 /*------ Header Styles  --------*/
 	.container-fluid{
@@ -157,11 +157,13 @@ html{
 	
 	/*---------End of Panel styles ---------*/
 	footer { 
+	    height: 250px;
 		display: flex;
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
 		margin-top: 50px;
+		background-color: orange;
 	}
 	
 	footer img {
