@@ -6,6 +6,16 @@
 }
 html{
 	background-color: transparent;
+	position: relative;
+}
+.logo-container {
+	position: absolute;
+	left: 50px;
+}
+.logo img{
+	position: absolute;
+	left: 50px;
+	box-shadow: none;
 }
 /*------ Header Styles  --------*/
 	.container-fluid{
@@ -36,9 +46,11 @@ html{
 		
 	}
 	h2 {
-		margin-top: 25px;
-		font-family: 'Merriweather';
-		font-size: 3em;
+		display: grid;
+		font-size: 1.5em;
+		text-align: center;
+		color: black;
+		padding: 0 10px 0 10px;
 	}
 	img {
 		
@@ -54,14 +66,7 @@ html{
 	main {
 		margin-bottom: 50px;
 	}
-	main h1,
-	 {
-		font-family: 'Lora';
-		display: grid;
-		font-size: 2em;
-		text-align: center;
-		color: blue;
-	}
+	
 	main a {
 		font-family: 'Lora';
 		display: grid;
