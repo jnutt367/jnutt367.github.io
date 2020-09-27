@@ -5,7 +5,7 @@
 	
 }
 html{
-	background-color: transparent;
+	background-color: teal;
 }
 /*------ Header Styles  --------*/
 	.container-fluid{
@@ -13,7 +13,7 @@ html{
 		flex-direction: column;
 		justify-content: center;
 		align-items: center;
-		font-family: "Amatic SC";
+		font-family: "Lora";
 		font-size: 2em;
 		margin-right: 50px;
 	}
@@ -27,40 +27,44 @@ html{
 		background-color: transparent;
 	}
 	h1 {
-		font-family: 'Tangerine';
+		font-family: 'Merriweather';
 		display: grid;
-		font-size: 2em;
+		font-size: 1em;
 		text-align: center;
 		color: black;
+		
 	}
 	h2 {
 		margin-top: 25px;
-		font-family: 'Tangerine';
+		font-family: 'Merriweather';
 		font-size: 3em;
 	}
 	img {
 		height: 100px;
 		width: 100px;
 		background-color: transparent;
-		
+		box-shadow:         3px 3px 5px 6px #ccc;
 	}
 	li img {
 		margin: 25px;
 	}
+	main {
+		margin-bottom: 150px;
+	}
 	main h1,
 	 {
-		font-family: 'Tangerine';
+		font-family: 'Lora';
 		display: grid;
 		font-size: 2em;
 		text-align: center;
 		color: blue;
 	}
 	main a {
-		font-family: 'Tangerine';
+		font-family: 'Lora';
 		display: grid;
 		font-size: 1.5em;
 		text-align: center;
-		color: blue;
+		color: grey;
 	}
 	
 	/*------Panels only ----------*/
