@@ -20,8 +20,9 @@ html{
 }
 /*------ Header Styles  --------*/
 	.container-fluid{
-		background-image: url('../images/birdOnShore.jpg');
+		background-image: url('../svg/tech.jpg');
 		background-repeat: no repeat;
+		background-size: cover;
 		
 		display: flex;
 		flex-direction: column;
