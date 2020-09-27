@@ -29,9 +29,10 @@ html{
 	h1 {
 		font-family: 'Merriweather';
 		display: grid;
-		font-size: 1em;
+		font-size: 1.5em;
 		text-align: center;
 		color: black;
+		padding: 0 10px 0 10px;
 		
 	}
 	h2 {
@@ -49,7 +50,7 @@ html{
 		margin: 25px;
 	}
 	main {
-		margin-bottom: 150px;
+		margin-bottom: 50px;
 	}
 	main h1,
 	 {
