@@ -20,7 +20,7 @@ html{
 }
 /*------ Header Styles  --------*/
 	.container-fluid{
-		background-image: url('../svg/tech.jpg');
+		background-image: url('../svg/virtualReality.jpg');
 		background-repeat: no repeat;
 		background-size: cover;
 		
@@ -73,7 +73,7 @@ html{
 	}
 	
 	main a {
-		font-family: 'Lora';
+		font-family: Roboto;
 		display: grid;
 		font-size: 1.5em;
 		text-align: center;
@@ -179,6 +179,13 @@ html{
 	/*--------------Figure out how to fill facebook svg with blue ------*/
 	.facebook {
 		fill: blue;
+	}
+	@media (max-width: 320px) {
+		.logo {
+			height: 30px;
+			width: 30px;
+		}
+		
 	}
 	/*------Queries for header styles -----*/
 	@media ( min-width: 769px) {
