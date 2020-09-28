@@ -79,6 +79,8 @@
   figcaption{
 	margin: 0 25px 0 25px;
   }
+  
+  
   @media (min-width: 768px) {
 	.grid-container {
 		text-align: center;
@@ -105,9 +107,30 @@
  .projects a {
 	color: grey;
  }
- figcaption {
-	font-weight: 800;
+img {
+	border: 5px solid silver;
  }
+ figcaption {
+	font-weight: 900;
+ }
+ /*--------------------------------------------------*/
+ #text{
+  position: absolute;
+  top: 70%;
+  left: 30%;
+  font-size: 20px;
+  color: white;
+  padding: 10px;
+  border: 1px solid silver;
+  border-radius: 6%;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  cursor: pointer;
+}
+ 
+ /*---------------------------------------------------------*/
+ 
+ 
   </style>
 </head>
  
@@ -142,26 +165,26 @@
 	<main class="grid-container">
 		<h2>Here are a few projects from school and some others that I worked on in my spare time.</h2>
 		
-		<figure class="card"><a href="https://jnutt367.github.io/gallery/index-carousel.html"><img src="images/smartmockups-1.jpg" alt="gallery"></a>
-				<figcaption>Image Carousel. JQuery Light-box</figcaption>
+		<figure id="overlay" class="card"><a href="https://jnutt367.github.io/gallery/index-carousel.html"><img src="images/smartmockups-1.jpg" alt="gallery"></a>
+				<figcaption id="text">Image Carousel. JQuery</figcaption>
 		</figure>
 		
 		
 			
-		<figure class="card"><a href="https://jnutt367.github.io/WebApp-Dash/"><img src="images/smartmockups-8.jpg" alt="Dashboard Poroject"></a>
-				<figcaption>Web App Dashboard. JavaScript/JSON</figcaption>
+		<figure id="overlay" class="card"><a href="https://jnutt367.github.io/WebApp-Dash/"><img src="images/smartmockups-8.jpg" alt="Dashboard Poroject"></a>
+				<figcaption id="text">Web App Dashboard. JavaScript/JSON</figcaption>
 		</figure>
 			 
-		<figure class="card"><a href="https://jnutt367.github.io/webs-style-guide/"><img src="images/smartmockups-13.jpg" alt="Style Guide"></a>
-				<figcaption>Web Style guide. Sass/CSS </figcaption>
+		<figure id="overlay" class="card"><a href="https://jnutt367.github.io/webs-style-guide/"><img src="images/smartmockups-13.jpg" alt="Style Guide"></a>
+				<figcaption id="text">Web Style guide. Sass/CSS </figcaption>
 		</figure>
 			
-		<figure class="card"><a href="https://jnutt367.github.io/ToDoList/new.html"><img src="images/smartmockups-9.jpg" alt="To Do List"></a>
-				<figcaption>To Do List. JavaScript/DOM travesal</figcaption>
+		<figure id="overlay" class="card"><a href="https://jnutt367.github.io/ToDoList/new.html"><img src="images/smartmockups-9.jpg" alt="To Do List"></a>
+				<figcaption id="text">To Do List. JavaScript/DOM travesal</figcaption>
 		</figure>
 			
-		<figure class="card"><a href="https://jnutt367.github.io/Employee-directory/"><img src="images/smartmockups-12.jpg" alt="Directory"></a>
-				<figcaption>Employee directory/JavaScript fetch('api')</figcaption>
+		<figure id="overlay" class="card"><a href="https://jnutt367.github.io/Employee-directory/"><img src="images/smartmockups-12.jpg" alt="Directory"></a>
+				<figcaption id="text">Employee directory/JavaScript fetch('api')</figcaption>
 		</figure>
 			
 	</main>
