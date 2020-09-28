@@ -18,6 +18,12 @@ html{
 	box-shadow: none;
 	border-radius: 35%;
 }
+figcaption a {
+	color: white;
+ }
+nav ul li a {
+	color: white;
+ }
 /*------ Header Styles  --------*/
 	.container-fluid{
 		background-image: url('../svg/virtualReality.jpg');
