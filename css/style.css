@@ -10,16 +10,19 @@ html{
 }
 .logo-container {
 	position: absolute;
-	left: 50px;
+	left: 20px;
 }
 .logo img{
 	position: absolute;
-	left: 50px;
+	left: 20px;
 	box-shadow: none;
 	border-radius: 35%;
 }
 figcaption a {
 	color: white;
+	display: flex;
+	justify-content: center;
+		align-items: center;
  }
 nav ul li a {
 	color: white;
@@ -48,7 +51,7 @@ nav ul li a {
 		background-color: transparent;
 	}
 	h1 {
-		font-family: 'Merriweather';
+		font-family: cursive;
 		display: grid;
 		font-size: 1.5em;
 		text-align: center;
@@ -79,7 +82,7 @@ nav ul li a {
 	}
 	
 	main a {
-		font-family: Roboto;
+		font-family: cursive;
 		display: grid;
 		font-size: 1.5em;
 		text-align: center;
@@ -175,23 +178,18 @@ nav ul li a {
 		justify-content: space-around;
 		align-items: center;
 		margin-top: 50px;
-		background-color: orange;
+		background-color: skyblue;
 	}
 	
 	footer img {
-		height: 50px;
-		width: 50px;
+		padding: 5px;
+		height: 60px;
+		width: 60px;
+		border-radius: 50%;
 	}
 	/*--------------Figure out how to fill facebook svg with blue ------*/
 	.facebook {
 		fill: blue;
-	}
-	@media (max-width: 320px) {
-		.logo {
-			height: 30px;
-			width: 30px;
-		}
-		
 	}
 	/*------Queries for header styles -----*/
 	@media ( min-width: 769px) {

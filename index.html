@@ -25,12 +25,19 @@
  form {
 	display: grid;
 	padding: 20px;
-	background: orange;
+	background: skyblue;
 	border-radius: 2%;
  }
  input {
 	background: white;
-	border-radius: 5%;
+	height: 50px;
+	padding: 15px;
+	
+	border-radius: 2%;
+ }
+ 
+ #form {
+	color: white;
  }
 	</style>
 </head>
@@ -40,9 +47,11 @@
 		<div class="logo">
 		<figure>
 		<img src="svg/nutt.jpg" alt="Brian's logo" >
-			<figcaption><a href = "mailto: jnutt367@gmail.com">Email: jnutt367@gmail.com</a></figcaption>
-			<figcaption><a href = "tel:4074350163">Phone: (407)-435-0163</a></figcaption>
+			<figcaption><a href="#form">Hire Me</a></figcaption>
+			<figcaption><a href = "mailto: jnutt367@gmail.com"> Email: jnutt367@gmail.com</a></figcaption>
+			<figcaption><a href = "tel:4074350163">Cell: (407)-435-0163</a></figcaption>
 		</figure>
+			
 		</div>
 			<nav class="navbar" >
 				<ul>
@@ -107,14 +116,16 @@
 	</div>
   </div>
 
-	<form>
+	<form id="form">
 	
 		<label>Full Name:</label>
 		<input type="text" name="name" placeholder="Enter you name...">
 		<label>Your Email Address:</label>
-		<input type="text" name="email" placeholder="What kind...">
+		<input type="text" name="email" placeholder="email address...">
+		<label>Your Phone Number:</label>
+		<input type="text" name="tel" placeholder="Phone #...">
 		<label>Type of site you're interested in:</label>
-		<input type="text" name="name" placeholder="Enter you name...">
+		<input type="text" name="name" placeholder="Business site, Personal Website, etc...">
 		
 		<label>Completed</label>
 		<input type="submit" name="submit" value="submit">
